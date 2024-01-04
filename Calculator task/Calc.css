@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+}
+
+.FirstLine {
+  height: 60px;
+  width: 60px;
+  border: 0px rgb(168, 168, 168);
+  border-radius: 100%;
+  background-color: rgb(168, 168, 168);
+  cursor: pointer;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.Numbers {
+  height: 60px;
+  width: 60px;
+  border: 0px rgb(88, 88, 88);
+  border-radius: 100%;
+  background-color: rgb(88, 88, 88);
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.Operations {
+  height: 60px;
+  width: 60px;
+  border: 0px orange;
+  border-radius: 100%;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.numberZero {
+  height: 60px;
+  width: 60px;
+  border: 0px rgb(88, 88, 88);
+  border-radius: 40%;
+
+  background-color: rgb(88, 88, 88);
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+}
+.inputt {
+  margin-top: 50px;
+  height: 50px;
+  width: 220px;
+  border: 2px solid black;
+  font-size: xx-large;
+  padding-left: 20px;
+}

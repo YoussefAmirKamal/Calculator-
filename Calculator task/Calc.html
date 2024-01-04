@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Calc.css">
+</head>
+
+<body>
+
+    <center>
+        <div class="MainPage ">
+            <input id="in" class="inputt" type="text" name="" id="">
+            <br><br><br><br>
+            <button onclick="C()" id="C" class="FirstLine">AC</button>
+            <button onclick="Del()" class="FirstLine">Del</button>
+            <button onclick="AddText('%')" id="Mod" class="FirstLine">%</button>
+            <button onclick="AddText('/')" id="Divide" class="Operations">/</button>
+            <br>
+            <button onclick="AddText('7')" id="Number7" class="Numbers">7</button>
+            <button onclick="AddText('8')" id="Number8" class="Numbers">8</button>
+            <button onclick="AddText('9')" id="Number9" class="Numbers">9</button>
+            <button onclick="AddText('*')" id="Multiply" class="Operations">*</button>
+            <br>
+            <button onclick="AddText('4')" id="Number4" class="Numbers">4</button>
+            <button onclick="AddText('5')" id="Number5" class="Numbers">5</button>
+            <button onclick="AddText('6')" id="Number6" class="Numbers">6</button>
+            <button onclick="AddText('+')" id="Plus" class="Operations">+</button>
+            <br>
+            <button onclick="AddText('1')" id="Number1" class="Numbers">1</button>
+            <button onclick="AddText('2')" id="Number2" class="Numbers">2</button>
+            <button onclick="AddText('3')" id="Number3" class="Numbers">3</button>
+            <button onclick="AddText('-')" id="Minus" class="Operations">-</button>
+            <br>
+            <button onclick="AddText('0')" id="Number0" class="numberZero">0</button>
+            <button onclick="AddText('.')" id="Dot" class="Numbers">.</button>
+            <button onclick="result()" class="Operations">=</button>
+            <button onclick="Historyy()" class="Operations">History</button>
+
+            <h1 id="res" style="margin-top: 80px; color: white;"></h1>
+
+        </div>
+    </center>
+
+
+
+    <script src="Calc.js"></script>
+</body>
+
+</html>
